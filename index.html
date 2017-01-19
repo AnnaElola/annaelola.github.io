@@ -4,27 +4,25 @@
     <meta charset="UTF-8" />
     <title>Värmdö Spika & Bygg </title>
     <link type="text/css" rel="stylesheet" href="spika.bygg.css" />
-    <!--Bootstrap-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div id="header">
       <nav>
       <h1>Värmdö Spika & Bygg</h1>
         <ul>
-          <li><a href="index.html">Hem</a></li>
-          <li><a href="projekt.html">Projekt</a></li>
-          <li><a href="om.foretaget.html">Om företaget</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
+          <li class="hem"><a  href="index.html">Hem</a></li>
+          <li class="projekt"><a  href="projekt.html">Projekt</a></li>
+          <li class="omforetaget"><a  href="omforetaget.html">Om företaget</a></li>
+          <li class="kontakt"><a  href="kontakt.html">Kontakt</a></li>
+          <line />
         </ul>
       </nav>
     </div>
+
     <div class="wrapper">
       <div class="main-body">
+
         <aside class="margin"><p>Hej vänster</p></aside>
         <main class="content">
           <p>Ett byggföretag för både stora och små byggen lokaliserat på Värmdö.
@@ -39,14 +37,15 @@ Ett byggföretag för både stora och små byggen lokaliserat på Värmdö.</p>
     </div>
 
     <div class="footer">
-      <left><p><a href="mailto:spikabygg@telia.com">spikabygg@telia.com</a></p>
+      <left><p><a class="email" href="mailto:spikabygg@telia.com">spikabygg@telia.com</a></p>
       <p>0709-583 606</p></left>
       <right><p>Torsby Sjöväg 35</p>
       <p>139 51 Värmdö</p></right>
     </div>
     </div>
 
-    <script src="spika.bygg.js" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
+    <script src="spikabygg.js" ></script>
   </body>
 
 </html>

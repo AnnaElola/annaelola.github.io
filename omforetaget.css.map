@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAYA,IAAI;EACF,OAAO,EAAG,KAAK;EACf,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,IAAI;EAXZ,kBAAkB,EAAE,iBAAiB;EAClC,eAAe,EAAE,iBAAiB;EACjC,cAAc,EAAE,iBAAiB;EAC7B,UAAU,EAAE,iBAAiB;EAUrC,UAAU,EAAE,KAAK;EACjB,WAAW,EAAE,GAAG",
+"sources": ["omforetaget.scss"],
+"names": [],
+"file": "omforetaget.css"
+}

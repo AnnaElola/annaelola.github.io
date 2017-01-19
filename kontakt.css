@@ -11,4 +11,7 @@ h3 {
 .content p {
   padding-bottom: 2em; }
 
+li a:hover {
+  box-shadow: 0em 0.17em 0em white; }
+
 /*# sourceMappingURL=kontakt.css.map */

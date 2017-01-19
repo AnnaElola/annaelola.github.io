@@ -1,17 +1,44 @@
 $main-color: #2a384f;
-
+@mixin transition() {
+  -webkit-transition: 0.23s ease-in-out;
+     -moz-transition: 0.23s ease-in-out;
+      -ms-transition: 0.23s ease-in-out;
+          transition: 0.23s ease-in-out;
+}
 #header{
-  width:  100%;
-  height: 5em;
+  width:  110%;
+  height: 6em;
   background-color: $main-color;
   position: fixed;
   z-index: 1;
+  margin-top: -1em;
+  margin-left: -1em;
 }
+.hem:hover ~line{
+  margin-left: 0;
+  width: 2.9em;
+}
+
+.projekt:hover ~ line{
+  margin-left: 17%;
+  width: 4em;
+}
+
+.omforetaget:hover ~ line{
+  margin-left: 40%;
+  width: 7.3em;
+}
+
+.kontakt:hover ~line{
+  margin-left: 76%;
+  width: 4.3em;
+}
+
 .wrapper{
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 100%;
+  width: 98%;
   position: absolute;
   margin-top: 5em;
 }

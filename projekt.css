@@ -1,0 +1,14 @@
+line {
+  display: block;
+  width: 4em;
+  height: 0.2em;
+  background: white;
+  border: none;
+  -webkit-transition: 0.23s ease-in-out;
+  -moz-transition: 0.23s ease-in-out;
+  -ms-transition: 0.23s ease-in-out;
+  transition: 0.23s ease-in-out;
+  margin-top: 1.7em;
+  margin-left: 17%; }
+
+/*# sourceMappingURL=projekt.css.map */

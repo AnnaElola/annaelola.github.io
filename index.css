@@ -1,0 +1,13 @@
+line {
+  display: block;
+  width: 2.9em;
+  height: 0.2em;
+  background: white;
+  border: none;
+  -webkit-transition: 0.23s ease-in-out;
+  -moz-transition: 0.23s ease-in-out;
+  -ms-transition: 0.23s ease-in-out;
+  transition: 0.23s ease-in-out;
+  margin-top: 1.7em; }
+
+/*# sourceMappingURL=index.css.map */
