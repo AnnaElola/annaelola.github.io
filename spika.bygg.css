@@ -120,7 +120,27 @@ nav {
 #footer-right {
   text-align: right; }
 
+@media only screen and (max-width: 860px) {
+  #header {
+    height: 9em; }
+
+  nav {
+    justify-content: center;
+    flex-direction: column; }
+    nav h1 {
+      margin-left: 0em;
+      display: block; }
+    nav ul {
+      margin: 0em;
+      padding-left: 0;
+      display: block; }
+
+  .wrapper {
+    margin-top: 9em; } }
 @media only screen and (max-device-width: 860px) {
+  * {
+    font-size: 1.5em; }
+
   #header {
     height: 9em; }
 
