@@ -22,9 +22,15 @@
 }
 
 @media only screen and (max-device-width: 860px){
-
   #header{
   height: 18em;
+}
+.wrapper{
+  margin-top: 18em;
+}
+
+.footer {
+  flex-direction: column;
 }
 p {
     font-size: 5em;
@@ -32,7 +38,7 @@ p {
   nav {
     justify-content: center;
     flex-direction: column;
-    font-size: 2em;
+    font-size: 2.5em;
     h1 {
       margin-left: 0em;
       display: block;
@@ -43,7 +49,6 @@ p {
       display: block;
     }
   }
-  .wrapper{
-    margin-top: 18em;
-  }
+
+
 }
