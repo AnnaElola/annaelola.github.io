@@ -144,10 +144,6 @@ nav {
   .wrapper {
     margin-top: 18em; }
 
-  .footer {
-    flex-direction: column;
-    flex: 1; }
-
   .margin {
     flex: 0; }
 
