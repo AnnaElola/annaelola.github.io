@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
-  if ($(window).width()<860){
+  if (window.screen.width<860){
     $('#footer-middle').remove();
   }
+
+  if
+
 });
