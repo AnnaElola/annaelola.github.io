@@ -1,11 +1,66 @@
+p {
+  font-family: Helvetica neue, Tahoma;
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: 140%;
+  margin: 0.3em 0 0.3em 0em; }
+
+a {
+  text-decoration: none; }
+
+h3 {
+  font-family: Helvetica neue, Tahoma;
+  font-weight: lighter;
+  font-size: 1.5em; }
+
+nav h1 {
+  font-family: Helvetica neue, Tahoma;
+  font-weight: lighter;
+  color: white;
+  margin-left: 3em;
+  font-size: 2em;
+  display: inline-block; }
+nav h1 a {
+  color: white; }
+nav ul {
+  list-style-type: none;
+  margin-right: 4em;
+  position: relative;
+  display: inline-block; }
+nav li {
+  font-family: Helvetica neue, Tahoma;
+  font-weight: lighter;
+  width: auto;
+  float: left;
+  color: white;
+  padding-right: 1em;
+  font-size: 23px;
+  display: inline; }
+nav li a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 0.1em;
+  display: inline-block; }
+
+.email {
+  color: #536E9B; }
+
 #header {
-  width: 110%;
+  width: 102%;
   height: 6em;
   background-color: #2a384f;
-  position: fixed;
   z-index: 1;
   margin-top: -1em;
-  margin-left: -1em; }
+  margin-left: -1em;
+  position: fixed;
+  flex-shrink: 0; }
+
+nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center; }
 
 .hem:hover ~ line {
   margin-left: 0;
@@ -26,7 +81,7 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   width: 98%;
   position: absolute;
   margin-top: 5em; }
@@ -65,55 +120,22 @@
 #footer-right {
   text-align: right; }
 
-p {
-  font-family: Helvetica neue, Tahoma;
-  font-weight: lighter;
-  font-size: 1em;
-  line-height: 140%;
-  margin: 0.3em 0 0.3em 0em; }
+@media screen and (max-width: 860px) {
+  #header {
+    height: 9em; }
 
-nav h1 {
-  font-family: Helvetica neue, Tahoma;
-  font-weight: lighter;
-  color: white;
-  margin-left: 1.2em;
-  float: left;
-  font-size: 2em;
-  margin-right: 3em; }
+  nav {
+    justify-content: center;
+    flex-direction: column; }
+    nav h1 {
+      margin-left: 0em;
+      display: block; }
+    nav ul {
+      margin: 0em;
+      padding-left: 0;
+      display: block; }
 
-h3 {
-  font-family: Helvetica neue, Tahoma;
-  font-weight: lighter;
-  font-size: 1.5em; }
-
-a {
-  text-decoration: none;
-  color: black; }
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  margin-top: 2.6em;
-  margin-right: 3em;
-  float: left;
-  position: relative; }
-nav li {
-  font-family: Helvetica neue, Tahoma;
-  font-weight: lighter;
-  width: auto;
-  float: left;
-  color: white;
-  padding-right: 1em;
-  font-size: 23px;
-  display: inline; }
-nav li a {
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  padding-bottom: 0.1em;
-  display: inline-block; }
-
-.email {
-  color: #536E9B; }
+  .wrapper {
+    margin-top: 9em; } }
 
 /*# sourceMappingURL=spika.bygg.css.map */

@@ -28,6 +28,13 @@ h3{
   padding-bottom: 2em;
 }
 
-li a:hover{
-   box-shadow: 0em 0.17em 0em white;
+line{
+  display:  block;
+  width: 4.3em;
+  height: 0.1em;
+  background: white;
+  border: none;
+  @include transition();
+  margin-top: 1.7em;
+  margin-left: 76%;
 }

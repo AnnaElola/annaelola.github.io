@@ -6,14 +6,23 @@ $main-color: #2a384f;
           transition: 0.23s ease-in-out;
 }
 #header{
-  width:  110%;
+  width:  102%;
   height: 6em;
   background-color: $main-color;
-  position: fixed;
   z-index: 1;
   margin-top: -1em;
   margin-left: -1em;
+  position: fixed;
+  flex-shrink: 0;
 }
+
+nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .hem:hover ~line{
   margin-left: 0;
   width: 2.9em;
@@ -37,7 +46,7 @@ $main-color: #2a384f;
 .wrapper{
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   width: 98%;
   position: absolute;
   margin-top: 5em;
