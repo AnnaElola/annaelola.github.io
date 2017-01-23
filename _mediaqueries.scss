@@ -1,0 +1,22 @@
+@media screen and (max-width: 860px){
+  #header{
+  height: 9em;
+  }
+  nav {
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      margin-left: 0em;
+      display: block;
+    }
+    ul{
+      margin: 0em;
+      padding-left: 0;
+      display: block;
+    }
+  }
+
+  .wrapper{
+    margin-top: 9em;
+  }
+}
