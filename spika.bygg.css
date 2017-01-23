@@ -120,7 +120,7 @@ nav {
 #footer-right {
   text-align: right; }
 
-@media screen and (max-width: 860px) {
+@media only screen and (max-device-width: 860px) {
   #header {
     height: 9em; }
 
