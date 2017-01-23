@@ -25,11 +25,14 @@
 
   #header{
   height: 9em;
-  }
+}
+p {
+    font-size: 2em;
+}
   nav {
     justify-content: center;
     flex-direction: column;
-    font-size: 1.5em;
+    font-size: 2em;
     h1 {
       margin-left: 0em;
       display: block;
