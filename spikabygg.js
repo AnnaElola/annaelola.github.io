@@ -4,6 +4,6 @@ $(document).ready(function(){
     $('#footer-middle').remove();
   }
 
-  if
+
 
 });
