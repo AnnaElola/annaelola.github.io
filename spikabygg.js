@@ -2,12 +2,10 @@ $(document).ready(function(){
 
   var availW = window.screen.availWidth;
 
-
-
-
   if (availW<750){
     $('#footer-middle').remove();
     $('#menyButton').show();
+    $('line').remove();
 
     $('#menyList').css("display", "none");
 

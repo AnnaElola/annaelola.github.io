@@ -163,9 +163,13 @@ nav {
   .space-around {
     width: 100%; }
 
+  p {
+    font-size: 4em; }
+
   nav {
     flex-direction: column;
-    background-color: #2a384f; }
+    background-color: #2a384f;
+    font-size: 2.4em; }
     nav h1 {
       margin: 0.6em 0 0.4em 0;
       font-family: Helvetica neue, Tahoma;
