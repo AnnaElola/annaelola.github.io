@@ -158,6 +158,7 @@ nav {
     flex: 0; }
 
   .wrapper {
+    margin-top: 6em;
     transition: 0.29s ease-in; }
 
   .space-around {
