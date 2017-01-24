@@ -14,11 +14,11 @@ $(document).ready(function(){
 
       var wrapperHeight = $('.wrapper').css("margin-top");
 
-      if(wrapperHeight=="96px"){
-        $('.wrapper').css("margin-top", "20em");
+      if(wrapperHeight=="160px"){
+        $('.wrapper').css("margin-top", "30em");
       }
       else{
-        $('.wrapper').css("margin-top", "6em");
+        $('.wrapper').css("margin-top", "10em");
       }
   });
 };
