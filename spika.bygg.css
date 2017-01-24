@@ -160,7 +160,7 @@ nav {
     margin-top: 9em; } }
 @media only screen and (max-device-width: 1000px) and (min-device-width: 501px) {
   #header {
-    height: 10em; }
+    height: 12em; }
 
   p {
     font-size: 2em; }
@@ -179,7 +179,7 @@ nav {
       display: block; }
 
   .wrapper {
-    margin-top: 9em; } }
+    margin-top: 15em; } }
 @media only screen and (max-device-width: 500px) {
   .margin {
     flex: 0; }
