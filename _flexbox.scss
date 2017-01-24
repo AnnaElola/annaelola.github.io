@@ -72,6 +72,7 @@ nav {
   display: flex;
   justify-content: center;
   flex: 1;
+  flex-shrink: 0;
 }
 
 .content{
@@ -92,10 +93,12 @@ nav {
   justify-content: center;
   padding: 1em 1.5em 1em 1.5em;
   margin-bottom: 0;
+  flex-shrink: 0;
 }
 
 .footer div{
   flex: 1;
+
 }
 
 #footer-left{
