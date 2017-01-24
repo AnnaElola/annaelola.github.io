@@ -157,7 +157,7 @@ nav {
 
   .wrapper {
     margin-top: 9em; } }
-@media only screen and (max-device-width: 860px) {
+@media only screen and (max-device-width: 500px) {
   .margin {
     flex: 0; }
 
