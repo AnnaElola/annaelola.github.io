@@ -15,7 +15,7 @@ $(document).ready(function(){
       var wrapperHeight = $('.wrapper').css("margin-top");
 
       if(wrapperHeight=="160px"){
-        $('.wrapper').css("margin-top", "30em");
+        $('.wrapper').css("margin-top", "33em");
       }
       else{
         $('.wrapper').css("margin-top", "10em");

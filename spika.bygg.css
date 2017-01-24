@@ -171,6 +171,7 @@ nav {
     font-size: 1.6em; }
     nav h1 {
       margin-left: 0em;
+      margin-bottom: 0em;
       display: block; }
     nav ul {
       margin: 0em;
