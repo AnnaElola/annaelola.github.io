@@ -31,7 +31,7 @@ $main-color: #2a384f;
 @media only screen and (max-device-width: 1000px)
 and (min-device-width: 501px){
   #header{
-   height: 9em;
+   height: 10em;
    }
 p{
   font-size: 2em;
@@ -39,7 +39,7 @@ p{
    nav {
      justify-content: center;
      flex-direction: column;
-     font-size: 2em;
+     font-size: 1.6em;
      h1 {
        margin-left: 0em;
        display: block;
