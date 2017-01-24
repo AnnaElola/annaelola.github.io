@@ -1,5 +1,12 @@
-@media only screen and (max-width: 860px){
-  #header{
+$main-color: #2a384f;
+
+@mixin main-font{
+  font-family: Helvetica neue, Tahoma;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 868px){
+ #header{
   height: 9em;
   }
   nav {
@@ -15,39 +22,46 @@
       display: block;
     }
   }
-
   .wrapper{
     margin-top: 9em;
   }
 }
 
 @media only screen and (max-device-width: 860px){
-  #header{
-  height: 18em;
-}
-.wrapper{
-  margin-top: 18em;
-}
-.margin {
+  .margin {
   flex: 0;
-}
-p {
-    font-size: 4em;
+  }
+  .wrapper {
+      transition: 0.29s ease-in;
+  }
+.space-around {
+  width: 100%;
 }
   nav {
-    justify-content: center;
     flex-direction: column;
-    font-size: 2.4em;
+    background-color: $main-color;
     h1 {
-      margin-left: 0em;
-      display: block;
+      margin: 0.6em 0 0.4em 0;
+      @include main-font;
     }
     ul{
       margin: 0em;
+      margin-bottom: 0.3em;
       padding-left: 0;
-      display: block;
+      display: flex;
+      flex-direction: column;
+    }
+    li {
+      text-align: center;
+    }
+    li a {
+      margin-bottom: 0.2em;
+    }
+    li a:hover {
+      box-shadow: 0 0.1em  0 white;
+    }
+    line {
+      display: none;
     }
   }
-
-
 }

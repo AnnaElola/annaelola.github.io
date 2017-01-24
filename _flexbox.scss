@@ -15,14 +15,29 @@ $main-color: #2a384f;
   position: fixed;
   flex-shrink: 0;
 }
-
+#menyButton{
+height: 2.1em;
+width: 2.1em;
+display: none;
+}
+#menyButtonLine{
+  background-color: white;
+  height: 0.3em;
+  box-shadow: 0 0.95em 0 white, 0 1.9em 0 white;
+}
 nav {
   display: flex;
   flex: 1;
   justify-content: space-between;
   align-items: center;
-}
 
+}
+.space-around {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
 .hem:hover ~line{
   margin-left: 0;
   width: 2.9em;
@@ -50,6 +65,7 @@ nav {
   width: 98%;
   position: absolute;
   margin-top: 5em;
+
 }
 
 .main-body{

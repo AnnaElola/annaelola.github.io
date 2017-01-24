@@ -1,12 +1,29 @@
 $(document).ready(function(){
 
   var availW = window.screen.availWidth;
-  $('#footer-right p').text(availW);
 
-  if (availW<1080){
+
+
+
+  if (availW<750){
     $('#footer-middle').remove();
-  }
+    $('#menyButton').show();
 
+    $('#menyList').css("display", "none");
+
+    $('#menyButton').click(function(){
+      $('#menyList').slideToggle();
+
+      var wrapperHeight = $('.wrapper').css("margin-top");
+
+      if(wrapperHeight=="80px"){
+        $('.wrapper').css("margin-top", "12.5em");
+      }
+      else{
+        $('.wrapper').css("margin-top", "5em");
+      }
+  });
+};
 
 
 });
