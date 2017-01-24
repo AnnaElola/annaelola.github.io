@@ -88,12 +88,12 @@ nav {
   width: 4em; }
 
 .omforetaget:hover ~ line {
-  margin-left: 40%;
-  width: 7.3em; }
+  margin-left: 39.5%;
+  width: 7.8em; }
 
 .kontakt:hover ~ line {
   margin-left: 76%;
-  width: 4.3em; }
+  width: 4.6em; }
 
 .wrapper {
   display: flex;
