@@ -173,8 +173,7 @@ nav {
     font-size: 2.4em; }
     nav h1 {
       margin: 0.6em 0 0.4em 0;
-      font-family: Helvetica neue, Tahoma;
-      font-weight: lighter; }
+      font-weight: normal; }
     nav ul {
       margin: 0em;
       margin-bottom: 0.3em;
