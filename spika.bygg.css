@@ -70,10 +70,11 @@ nav {
   display: flex;
   flex: 1;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  min-width: 19.2em; }
 
 .space-around {
-  display: none;
+  display: flex;
   flex: 1;
   justify-content: space-around;
   align-items: center; }
@@ -165,7 +166,8 @@ nav {
     transition: 0.29s ease-in; }
 
   .space-around {
-    width: 100%; }
+    width: 100%;
+    display: flex; }
 
   p {
     font-size: 4em; }
