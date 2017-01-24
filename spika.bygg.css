@@ -19,7 +19,8 @@ nav h1 {
   color: white;
   margin-left: 3em;
   font-size: 2em;
-  display: inline-block; }
+  display: inline-block;
+  min-width: 19.2em; }
 nav h1 a {
   color: white; }
 nav ul {
@@ -70,8 +71,7 @@ nav {
   display: flex;
   flex: 1;
   justify-content: space-between;
-  align-items: center;
-  min-width: 19.2em; }
+  align-items: center; }
 
 .space-around {
   display: flex;
