@@ -1,11 +1,7 @@
 $(document).ready(function(){
 
   var availW = window.screen.availWidth;
-
   var pathname = window.location.pathname;
-
-  console.log(pathname);
-
 
   if (availW<750){
     $('#footer-middle').remove();
@@ -13,7 +9,6 @@ $(document).ready(function(){
     $('line').remove();
     $('#menyList').css("display", "none");
 
-    var pathname = window.location.pathname;
     if(pathname=="/index.html"){
       $('.hem').addClass('.active');
     }
@@ -26,8 +21,7 @@ $(document).ready(function(){
     else if(pathname=="/kontakt.html"){
       $('.kontakt').addClass('.active');
     }
-
-
+    
     $('#menyButton').click(function(){
       $('#menyList').slideToggle();
 
