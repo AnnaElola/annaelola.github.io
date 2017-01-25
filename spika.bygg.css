@@ -63,7 +63,8 @@ header {
 #menyButton {
   height: 0.9em;
   width: 1.5em;
-  display: none; }
+  display: none;
+  margin-top: 0.2em; }
 
 #menyButtonLine {
   background-color: white;
