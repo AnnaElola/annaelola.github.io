@@ -23,7 +23,7 @@ $(document).ready(function(){
     }
 
     $('#menyButton').click(function(){
-      $('#menyList a').slideToggle();
+      $('#menyList').slideToggle();
 
       var wrapperHeight = $('.wrapper').css("margin-top");
 
