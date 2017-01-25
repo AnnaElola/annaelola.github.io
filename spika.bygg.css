@@ -87,15 +87,15 @@ nav {
   width: 2.9em; }
 
 .projekt:hover ~ line {
-  margin-left: 17%;
+  margin-left: 15.5%;
   width: 4em; }
 
 .omforetaget:hover ~ line {
-  margin-left: 39.5%;
-  width: 7.8em; }
+  margin-left: 36%;
+  width: 7.7em; }
 
 .kontakt:hover ~ line {
-  margin-left: 76%;
+  margin-left: 69%;
   width: 4.6em; }
 
 .wrapper {
