@@ -1,5 +1,5 @@
 p {
-  font-family: Helvetica neue, Tahoma;
+  font-family: Helvetica Neue, Tahoma;
   font-weight: lighter;
   font-size: 1em;
   line-height: 140%;
@@ -9,12 +9,12 @@ a {
   text-decoration: none; }
 
 h3 {
-  font-family: Helvetica neue, Tahoma;
+  font-family: Helvetica Neue, Tahoma;
   font-weight: lighter;
   font-size: 1.5em; }
 
 nav h1 {
-  font-family: Helvetica neue, Tahoma;
+  font-family: Helvetica Neue, Tahoma;
   font-weight: lighter;
   color: white;
   font-size: 2em;
@@ -29,7 +29,7 @@ nav ul {
   padding-top: 0.5em;
   min-width: 27.9em; }
 nav li {
-  font-family: Helvetica neue, Tahoma;
+  font-family: Helvetica Neue, Tahoma;
   font-weight: lighter;
   width: auto;
   float: left;
@@ -215,7 +215,7 @@ footer div {
       flex-direction: column; }
     nav li {
       text-align: center;
-      font-weight: normal; }
+      font-weight: 300; }
     nav li a {
       margin-bottom: 0.2em;
       padding-bottom: 0em; } }
@@ -245,7 +245,7 @@ footer div {
       flex-direction: column; }
     nav li {
       text-align: center;
-      font-weight: normal; }
+      font-weight: 300; }
     nav li a {
       margin-bottom: 0.2em; } }
 
