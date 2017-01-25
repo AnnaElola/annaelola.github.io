@@ -182,6 +182,8 @@ footer div {
       margin: 0em;
       padding-left: 0;
       display: block; }
+    nav li {
+      font-weight: 200; }
 
   .wrapper {
     margin-top: 7em; } }
