@@ -27,7 +27,7 @@ $main-color: #2a384f;
     margin-top: 9em;
   }
 }
-<!-- iPad-->
+/* iPad */
 @media only screen and (max-device-width: 1000px)
 and (min-device-width: 501px){
   header{
@@ -53,7 +53,7 @@ and (min-device-width: 501px){
    }
 }
 
-<!-- Mobil -->
+/* Mobil */
 @media only screen and (max-device-width: 500px){
   header {
     height: 3em;
