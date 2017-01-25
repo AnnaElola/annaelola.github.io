@@ -68,6 +68,7 @@ and (min-device-width: 501px){
 .space-around {
   width: 100%;
   display: flex;
+  min-width: 0em;
 }
   nav {
     flex-direction: column;
@@ -105,6 +106,7 @@ and (orientation: landscape){
 .space-around {
   width: 100%;
   display: flex;
+  min-width: 0em;
 }
   nav {
     flex-direction: column;
