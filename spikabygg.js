@@ -10,28 +10,28 @@ $(document).ready(function(){
     $('#menyList').css("display", "none");
 
     if(pathname=="/index.html"){
-      $('.hem').addClass('active');
+      $('.hem a').addClass('active');
     }
     else if(pathname=="/projekt.html"){
-      $('.projekt').addClass('active');
+      $('.projekt a').addClass('active');
     }
     else if(pathname=="/omforetaget.html"){
-      $('.omforetaget').addClass('active');
+      $('.omforetaget a').addClass('active');
     }
     else if(pathname=="/kontakt.html"){
-      $('.kontakt').addClass('active');
+      $('.kontakt a').addClass('active');
     }
 
     $('#menyButton').click(function(){
-      $('#menyList').slideToggle();
+      $('#menyList a').slideToggle();
 
       var wrapperHeight = $('.wrapper').css("margin-top");
 
-      if(wrapperHeight=="112px"){
-        $('.wrapper').css("margin-top", "30em");
+      if(wrapperHeight=="80px"){
+        $('.wrapper').css("margin-top", "15em");
       }
       else{
-        $('.wrapper').css("margin-top", "7em");
+        $('.wrapper').css("margin-top", "5em");
       }
   });
 };
