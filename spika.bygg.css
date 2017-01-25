@@ -215,7 +215,8 @@ footer div {
       text-align: center;
       font-weight: normal; }
     nav li a {
-      margin-bottom: 0.2em; } }
+      margin-bottom: 0.2em;
+      padding-bottom: 0em; } }
 @media only screen and (max-device-width: 500px) and (orientation: landscape) {
   .margin {
     flex: 0; }
