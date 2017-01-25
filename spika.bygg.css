@@ -167,7 +167,7 @@ footer div {
 /* iPad */
 @media only screen and (max-device-width: 1000px) and (min-device-width: 501px) {
   header {
-    height: 6em; }
+    height: 8em; }
 
   nav {
     justify-content: center;
@@ -182,7 +182,7 @@ footer div {
       display: block; }
 
   .wrapper {
-    margin-top: 6em; } }
+    margin-top: 7em; } }
 /* Mobil */
 @media only screen and (max-device-width: 500px) {
   header {
