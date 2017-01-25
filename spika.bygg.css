@@ -141,6 +141,9 @@ nav {
 #footer-right {
   text-align: right; }
 
+.active {
+  box-shadow: 0 0.1em 0 white; }
+
 @media only screen and (max-width: 868px) {
   #header {
     height: 9em; }

@@ -5,7 +5,7 @@ $(document).ready(function(){
   if (availW<750){
     $('#footer-middle').remove();
     $('#menyButton').show();
-    $('line').remove();
+    
 
     $('#menyList').css("display", "none");
 
