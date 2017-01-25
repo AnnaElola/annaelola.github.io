@@ -10,18 +10,18 @@ $(document).ready(function(){
     $('#menyList').css("display", "none");
 
     if(pathname=="/index.html"){
-      $('.hem').addClass('.active');
+      $('.hem').addClass('active');
     }
     else if(pathname=="/projekt.html"){
-      $('.projekt').addClass('.active');
+      $('.projekt').addClass('active');
     }
     else if(pathname=="/omforetaget.html"){
-      $('.omforetaget').addClass('.active');
+      $('.omforetaget').addClass('active');
     }
     else if(pathname=="/kontakt.html"){
-      $('.kontakt').addClass('.active');
+      $('.kontakt').addClass('active');
     }
-    
+
     $('#menyButton').click(function(){
       $('#menyList').slideToggle();
 
