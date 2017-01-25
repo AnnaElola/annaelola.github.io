@@ -189,7 +189,7 @@ footer div {
     flex: 0; }
 
   .wrapper {
-    margin-top: 10em;
+    margin-top: 5em;
     transition: 0.29s ease-in; }
 
   .space-around {
@@ -211,11 +211,7 @@ footer div {
       text-align: center;
       font-weight: normal; }
     nav li a {
-      margin-bottom: 0.2em; }
-    nav li a:hover {
-      box-shadow: 0 0.1em  0 white; }
-    nav line {
-      display: none; } }
+      margin-bottom: 0.2em; } }
 @media only screen and (max-device-width: 500px) and (orientation: landscape) {
   .margin {
     flex: 0; }
@@ -243,10 +239,6 @@ footer div {
       text-align: center;
       font-weight: normal; }
     nav li a {
-      margin-bottom: 0.2em; }
-    nav li a:hover {
-      box-shadow: 0 0.1em  0 white; }
-    nav line {
-      display: none; } }
+      margin-bottom: 0.2em; } }
 
 /*# sourceMappingURL=spika.bygg.css.map */

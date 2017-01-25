@@ -62,7 +62,7 @@ and (min-device-width: 501px){
   flex: 0;
   }
   .wrapper {
-    margin-top: 10em;
+    margin-top: 5em;
     transition: 0.29s ease-in;
   }
 .space-around {
@@ -90,14 +90,9 @@ and (min-device-width: 501px){
     li a {
       margin-bottom: 0.2em;
     }
-    li a:hover {
-      box-shadow: 0 0.1em  0 white;
-    }
-    line {
-      display: none;
-    }
   }
 }
+
 @media only screen and (max-device-width: 500px)
 and (orientation: landscape){
   .margin {
@@ -131,12 +126,6 @@ and (orientation: landscape){
     }
     li a {
       margin-bottom: 0.2em;
-    }
-    li a:hover {
-      box-shadow: 0 0.1em  0 white;
-    }
-    line {
-      display: none;
     }
   }
 }
