@@ -18,7 +18,8 @@ nav h1 {
   font-weight: lighter;
   color: white;
   font-size: 2em;
-  display: inline-block; }
+  display: inline-block;
+  font-weight: 200; }
 nav h1 a {
   color: white; }
 nav ul {
@@ -176,7 +177,7 @@ footer div {
       margin-left: 0em;
       margin-bottom: 0em;
       display: block;
-      font-weight: 300; }
+      font-weight: 200; }
     nav ul {
       margin: 0em;
       padding-left: 0;
