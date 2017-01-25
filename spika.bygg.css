@@ -27,7 +27,8 @@ nav ul {
   margin-right: 4em;
   position: relative;
   display: inline-block;
-  padding-top: 0.5em; }
+  padding-top: 0.5em;
+  min-width: 27.9em; }
 nav li {
   font-family: Helvetica neue, Tahoma;
   font-weight: lighter;
@@ -47,7 +48,7 @@ nav li a {
 .email {
   color: #536E9B; }
 
-#header {
+header {
   width: 102%;
   height: 6em;
   background-color: #2a384f;
@@ -120,7 +121,7 @@ nav {
 .margin {
   flex: 1; }
 
-.footer {
+footer {
   display: flex;
   border-top: 0.05em solid black;
   height: 3em;
@@ -129,7 +130,7 @@ nav {
   margin-bottom: 0;
   flex-shrink: 0; }
 
-.footer div {
+footer div {
   flex: 1; }
 
 #footer-left {
@@ -145,7 +146,7 @@ nav {
   box-shadow: 0 0.1em 0 white; }
 
 @media only screen and (max-width: 868px) {
-  #header {
+  header {
     height: 9em; }
 
   nav {
@@ -162,7 +163,7 @@ nav {
   .wrapper {
     margin-top: 9em; } }
 @media only screen and (max-device-width: 1000px) and (min-device-width: 501px) {
-  #header {
+  header {
     height: 12em; }
 
   p {

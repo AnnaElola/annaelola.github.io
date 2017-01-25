@@ -6,7 +6,7 @@ $main-color: #2a384f;
 }
 
 @media only screen and (max-width: 868px){
- #header{
+ header{
   height: 9em;
   }
 
@@ -30,7 +30,7 @@ $main-color: #2a384f;
 
 @media only screen and (max-device-width: 1000px)
 and (min-device-width: 501px){
-  #header{
+  header{
    height: 12em;
    }
 p{

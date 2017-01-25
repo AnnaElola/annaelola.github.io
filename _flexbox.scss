@@ -5,7 +5,7 @@ $main-color: #2a384f;
       -ms-transition: 0.23s ease-in-out;
           transition: 0.23s ease-in-out;
 }
-#header{
+header{
   width:  102%;
   height: 6em;
   background-color: $main-color;
@@ -86,7 +86,7 @@ nav {
   flex: 1;
 }
 
-.footer{
+footer{
   display: flex;
   border-top: 0.05em solid black;
   height: 3em;
@@ -96,7 +96,7 @@ nav {
   flex-shrink: 0;
 }
 
-.footer div{
+footer div{
   flex: 1;
 
 }
