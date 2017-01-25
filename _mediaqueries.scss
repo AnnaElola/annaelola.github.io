@@ -55,6 +55,9 @@ and (min-device-width: 501px){
 
 
 @media only screen and (max-device-width: 500px){
+  header {
+    height: 3em;
+  }
   .margin {
   flex: 0;
   }
