@@ -27,11 +27,11 @@ $(document).ready(function(){
 
       var wrapperHeight = $('.wrapper').css("margin-top");
 
-      if(wrapperHeight=="64px"){
+      if(wrapperHeight=="48px"){
         $('.wrapper').css("margin-top", "13em");
       }
       else{
-        $('.wrapper').css("margin-top", "4em");
+        $('.wrapper').css("margin-top", "3em");
       }
   });
 };
