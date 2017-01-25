@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('#footer-middle').remove();
     $('#menyButton').show();
     $('line').remove();
-    $('#menyList').css("display", "none");
+  /*  $('#menyList').css("display", "none");*/
 
     if(pathname=="/index.html"){
       $('.hem a').addClass('active');
