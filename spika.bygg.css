@@ -166,13 +166,9 @@ footer div {
   header {
     height: 12em; }
 
-  p {
-    font-size: 2em; }
-
   nav {
     justify-content: center;
-    flex-direction: column;
-    font-size: 1.6em; }
+    flex-direction: column; }
     nav h1 {
       margin-left: 0em;
       margin-bottom: 0em;
@@ -196,13 +192,9 @@ footer div {
     width: 100%;
     display: flex; }
 
-  p {
-    font-size: 4em; }
-
   nav {
     flex-direction: column;
-    background-color: #2a384f;
-    font-size: 2.4em; }
+    background-color: #2a384f; }
     nav h1 {
       margin: 0.6em 0 0.4em 0; }
     nav ul {
@@ -232,13 +224,9 @@ footer div {
     width: 100%;
     display: flex; }
 
-  p {
-    font-size: 2em; }
-
   nav {
     flex-direction: column;
-    background-color: #2a384f;
-    font-size: 1.7em; }
+    background-color: #2a384f; }
     nav h1 {
       margin: 0.6em 0 0.4em 0; }
     nav ul {
