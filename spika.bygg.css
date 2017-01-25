@@ -63,8 +63,7 @@ header {
 #menyButton {
   height: 0.9em;
   width: 1.5em;
-  display: none;
-  margin-top: 0.2em; }
+  display: none; }
 
 #menyButtonLine {
   background-color: white;
@@ -191,7 +190,7 @@ footer div {
 /* Mobil */
 @media only screen and (max-device-width: 500px) {
   header {
-    height: 3em; }
+    height: 3.1em; }
 
   .margin {
     flex: 0; }
