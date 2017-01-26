@@ -21,6 +21,7 @@ $main-color: #2a384f;
       margin: 0em;
       padding-left: 0;
       display: block;
+      min-width: 0em;
     }
   }
   .wrapper{
@@ -32,10 +33,6 @@ $main-color: #2a384f;
 and (min-device-width: 501px){
   header{
    height: 8em;
-   }
-
-   .space-around {
-     justify-content: center;
    }
 
    nav {
@@ -51,6 +48,7 @@ and (min-device-width: 501px){
        margin: 0em;
        padding-left: 0;
        display: block;
+       min-width: 0em;
      }
      li {
        font-weight: 200;
@@ -92,6 +90,7 @@ and (min-device-width: 501px){
       padding-left: 0;
       display: flex;
       flex-direction: column;
+      min-width: 0em;
     }
     li {
       text-align: center;
@@ -130,6 +129,7 @@ and (orientation: landscape){
       padding-left: 0;
       display: flex;
       flex-direction: column;
+      min-width: 0em;
     }
     li {
       text-align: center;
