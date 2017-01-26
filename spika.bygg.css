@@ -173,6 +173,9 @@ footer div {
   header {
     height: 8em; }
 
+  .space-around {
+    justify-content: center; }
+
   nav {
     justify-content: center;
     flex-direction: column; }
