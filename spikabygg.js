@@ -3,10 +3,10 @@ $(document).ready(function(){
   var availW = window.screen.availWidth;
   var pathname = window.location.pathname;
 
-  if (availW<1000 && availW>751){
+  if (availW<1025 && availW>751){
 
     $('line').remove();
-    
+
     if(pathname=="/index.html"){
       $('.hem a').addClass('activeShadow');
     }
@@ -21,7 +21,7 @@ $(document).ready(function(){
     }
   }
 
-  else if (availW<750){
+  else if (availW<=750){
     $('#footer-middle').remove();
     $('#menyButton').show();
     $('line').remove();
