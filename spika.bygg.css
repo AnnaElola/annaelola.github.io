@@ -197,7 +197,7 @@ footer div {
   .wrapper {
     margin-top: 7em; } }
 /* Mobil */
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width: 568px) {
   header {
     height: 3em; }
 
@@ -233,7 +233,7 @@ footer div {
     nav li a {
       margin-bottom: 0.2em;
       padding-bottom: 0em; } }
-@media only screen and (max-device-width: 500px) and (orientation: landscape) {
+@media only screen and (max-device-width: 568px) and (orientation: landscape) {
   .margin {
     flex: 0; }
 
