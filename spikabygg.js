@@ -3,7 +3,25 @@ $(document).ready(function(){
   var availW = window.screen.availWidth;
   var pathname = window.location.pathname;
 
-  if (availW<750){
+  if (availW<1000 && availW>751){
+
+    $('line').remove();
+    
+    if(pathname=="/index.html"){
+      $('.hem a').addClass('activeShadow');
+    }
+    else if(pathname=="/projekt.html"){
+      $('.projekt a').addClass('activeShadow');
+    }
+    else if(pathname=="/omforetaget.html"){
+      $('.omforetaget a').addClass('activeShadow');
+    }
+    else if(pathname=="/kontakt.html"){
+      $('.kontakt a').addClass('activeShadow');
+    }
+  }
+
+  else if (availW<750){
     $('#footer-middle').remove();
     $('#menyButton').show();
     $('line').remove();
