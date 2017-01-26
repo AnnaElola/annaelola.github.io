@@ -23,6 +23,9 @@ $main-color: #2a384f;
       display: block;
       min-width: 0em;
     }
+    li:nth-child(4){
+      padding-right: 0em;
+    }
   }
   .wrapper{
     margin-top: 9em;
@@ -52,6 +55,9 @@ and (min-device-width: 501px){
      }
      li {
        font-weight: 200;
+     }
+     li:nth-child(4){
+       padding-right: 0em;
      }
    }
    .wrapper{
@@ -135,6 +141,7 @@ and (orientation: landscape){
       text-align: center;
       font-weight: 200;
     }
+
     li a {
       margin-bottom: 0.2em;
     }
