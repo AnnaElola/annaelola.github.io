@@ -231,7 +231,8 @@ footer div {
       min-width: 0em; }
     nav li {
       text-align: center;
-      font-weight: 200; }
+      font-weight: 200;
+      padding-right: 0em; }
     nav li a {
       margin-bottom: 0.2em;
       padding-bottom: 0em; } }
@@ -262,7 +263,8 @@ footer div {
       min-width: 0em; }
     nav li {
       text-align: center;
-      font-weight: 200; }
+      font-weight: 200;
+      padding-right: 0em; }
     nav li a {
       margin-bottom: 0.2em; } }
 
