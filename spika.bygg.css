@@ -28,7 +28,7 @@ nav ul {
   position: relative;
   display: inline-block;
   padding-top: 0.5em;
-  min-width: 27.9em; }
+  padding-left: 0em; }
 nav li {
   font-family: "Helvetica Neue", Tahoma;
   font-weight: lighter;
@@ -38,6 +38,8 @@ nav li {
   padding-right: 1em;
   font-size: 1.5em;
   display: inline; }
+nav li:nth-last-child(2) {
+  padding-right: 0em; }
 nav li a {
   text-align: center;
   color: white;
@@ -88,15 +90,15 @@ nav {
   width: 2.9em; }
 
 .projekt:hover ~ line {
-  margin-left: 15.5%;
+  margin-left: 18.5%;
   width: 4em; }
 
 .omforetaget:hover ~ line {
-  margin-left: 36%;
-  width: 7.7em; }
+  margin-left: 42%;
+  width: 7.8em; }
 
 .kontakt:hover ~ line {
-  margin-left: 69%;
+  margin-left: 81%;
   width: 4.6em; }
 
 .wrapper {
@@ -166,7 +168,7 @@ footer div {
       padding-left: 0;
       display: block;
       min-width: 0em; }
-    nav li:nth-child(4) {
+    nav li:nth-last-child(2) {
       padding-right: 0em; }
 
   .wrapper {
