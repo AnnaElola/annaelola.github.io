@@ -197,10 +197,7 @@ footer div {
       padding-right: 0em; }
 
   .wrapper {
-    margin-top: 7em; }
-
-  line {
-    display: none; } }
+    margin-top: 7em; } }
 /* Mobil */
 @media only screen and (max-device-width: 568px) {
   header {
