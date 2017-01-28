@@ -5,6 +5,7 @@ $(document).ready(function(){
 
   if (availW<1025 && availW>751){
 
+    $('line').css("display", "none");
 
     if(pathname=="/index.html"){
       $('.hem a').addClass('activeShadow');
